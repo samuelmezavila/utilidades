@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<body>
+	<!-- INÍCIO SCRIPT TOGGLE -->
+	<script type='text/javascript'>
+        $(document).ready(function()
+        {
+        $(".mostrar").hide();
+        $(".ocultar").click(function()
+        {
+        $(this).next(".mostrar").slideToggle(600);
+        });
+        });
+	</script>
+
+	<div class='ocultar'>
+    <a target= "_blank"><b> TÍTULO A SER OCULTADO/MOSTRADO </b></br></a>
+    </div>
+    <div class='mostrar'> CONTEÚDO A SER OCULTADO/MOSTRADO</br></div>
+
+<!-- ESSE CÓDIGO ABAIXO IRÁ NO CSS 
+	.ocultar {
+		cursor:pointer;
+		font-weight:bold;
+		font-size:14px; /* tamanho da fonte */
+		color:#3D81EE;  /* cor do link */
+		padding:10px;
+		margin:0 auto;
+	}
+	.mostrar {
+		padding: 10px;
+	}
+-->
+

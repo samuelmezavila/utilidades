@@ -55,7 +55,7 @@
 <?php
 require_once("rodape.php");
 ?>
-<!--sccript ocuta campo senha-->
+<!--sccript oculta campo senha-->
 <script type="text/javascript">
 function tipoSenhaSel() {
   var sn = document.getElementById("opt-sn").checked;
